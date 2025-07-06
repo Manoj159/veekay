@@ -1,0 +1,14 @@
+[15-Apr-2024 12:11:10 Asia/Calcutta] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/veekaycabs/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 212
+[20-Apr-2024 17:25:34 Asia/Calcutta] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/veekaycabs/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 212
+[21-Apr-2024 21:10:58 Asia/Calcutta] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/veekaycabs/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 212
+[05-May-2024 12:02:32 Asia/Calcutta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home3/veekaycabs/public_html/application/controllers/rest_api/Web.php on line 99
+[05-May-2024 12:02:41 Asia/Calcutta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home3/veekaycabs/public_html/application/controllers/rest_api/Web.php on line 99
+[05-May-2024 12:05:46 Asia/Calcutta] PHP Fatal error:  Cannot use [] for reading in /home3/veekaycabs/public_html/application/controllers/rest_api/Web.php on line 97
+[05-May-2024 12:06:10 Asia/Calcutta] PHP Fatal error:  Cannot use [] for reading in /home3/veekaycabs/public_html/application/controllers/rest_api/Web.php on line 97
+[06-May-2024 21:17:46 Asia/Calcutta] PHP Fatal error:  Cannot use [] for reading in /home3/veekaycabs/public_html/application/controllers/rest_api/Web.php on line 97
+[06-May-2024 21:18:07 Asia/Calcutta] PHP Fatal error:  Cannot use [] for reading in /home3/veekaycabs/public_html/application/controllers/rest_api/Web.php on line 97
+[06-May-2024 21:18:58 Asia/Calcutta] PHP Fatal error:  Cannot use [] for reading in /home3/veekaycabs/public_html/application/controllers/rest_api/Web.php on line 97
+[06-May-2024 21:19:04 Asia/Calcutta] PHP Fatal error:  Cannot use [] for reading in /home3/veekaycabs/public_html/application/controllers/rest_api/Web.php on line 97
+[17-May-2024 18:21:31 Asia/Calcutta] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/veekaycabs/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 212
+[02-Jun-2024 18:58:04 Asia/Calcutta] PHP Deprecated:  Optional parameter $bid declared before required parameter $name is implicitly treated as a required parameter in /home3/veekaycabs/public_html/application/controllers/Thankyou.php on line 78
+[17-Dec-2024 14:32:41 Asia/Calcutta] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/veekaycabs/public_html/application/controllers/Book.php on line 74

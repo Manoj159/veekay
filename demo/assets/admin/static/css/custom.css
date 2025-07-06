@@ -1,0 +1,607 @@
+.checkbox-holder.has-error {
+	color: red;
+}
+
+.popup .has-error select.error,
+.popup .has-error textarea.error,
+.popup .has-error input[type=tel].error,
+.popup .has-error input[type=text].error,
+.popup .has-error input[type=email].error,
+.popup .has-error input[type=password].error,
+.popup .has-error input[type=number].error {
+	border: 1px solid #EF4B52;
+}
+
+#confirm-form .error {
+	border: 1px solid #EF4B52;
+}
+
+
+.section1-text {
+	padding: 30px;
+}
+
+.attention {
+	margin: 14px 0;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 14px;
+	color: #666666;
+	padding-top: 8px;
+	padding-left: 20px;
+	padding-bottom: 8px;
+	padding-right: 30px;
+	background: #F8F8F8;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
+	border-radius: 3px;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	position: relative;
+}
+
+.attention span {
+	color: #DB3D24;
+	font-weight: 700;
+}
+
+.icon-exclamation {
+	width: 34px;
+	height: 32px;
+	float: left;
+	margin: 3px 14px 0 -5px;
+	background: url("../images/icon-exclamation.svg") no-repeat center;
+}
+
+.icon-close {
+	width: 18px;
+	height: 18px;
+	float: right;
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	background: url("../images/icon-close.svg") no-repeat center;
+	cursor: pointer;
+}
+
+.special {
+	display: none;
+}
+
+.headerState {
+	float: left;
+	margin-top: 19px;
+	margin-right: 20px;
+	line-height: 19px;
+	font-weight: 500;
+	color: #777777;
+}
+
+.secondState {
+	display: none;
+}
+
+.headerFlag {
+	display: block;
+	float: left;
+	width: 54px;
+	margin-top: -3px;
+	margin-right: 13px;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+	#science h1.mont60 br {
+		display: block;
+		content: "";
+		height: 5px;
+	}
+
+	#science h1.mont60 br:after {
+		content: "\00a0";
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+
+
+	.theproofD {
+		min-height: 920px;
+		background-size: 1650px;
+	}
+
+	h1.mont60 {
+		margin-top: 0;
+	}
+
+	#science h1.mont60 br {
+		height: 20px;
+	}
+
+	#whatyouget .space {
+		height: 10px;
+	}
+
+	.stayingKetosis {
+		margin-top: -40px;
+		min-height: 800px;
+	}
+
+	#howto br {
+		display: none;
+	}
+
+	.allnatural {
+		margin-top: -40px;
+		min-height: 800px;
+	}
+
+	#science br {
+		display: none;
+	}
+
+	#science2 br {
+		display: none;
+	}
+
+	.ketpoia-ketosis-banner {
+		margin-top: -40px;
+		min-height: 800px;
+	}
+
+}
+
+@media screen and (max-width: 535px) {
+
+	h1.mont60 {
+		margin-top: -30px;
+	}
+
+	#science br {
+		display: none;
+	}
+
+	#science2 br {
+		display: none;
+	}
+
+	.ketpoia-ketosis-banner {
+		margin-top: -40px;
+		min-height: 800px;
+	}
+
+	#whatyouget .space {
+		height: 10px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	.theproofD {
+		min-height: 900px;
+		background-size: 1650px;
+	}
+
+	h1.mont60 {
+		margin-top: 0;
+	}
+
+	#science h1.mont60 br {
+		display: none;
+	}
+
+	#whatyouget .space {
+		height: 10px;
+	}
+
+	.stayingKetosis {
+		margin-top: -40px;
+		min-height: 800px;
+	}
+
+	.theproofD {
+		margin-top: -40px;
+	}
+
+	.allnatural {
+		margin-top: -40px;
+		min-height: 800px;
+	}
+
+	.ketpoia-ketosis-banner {
+		margin-top: -40px;
+		min-height: 800px;
+	}
+
+	#howto br {
+		display: none;
+	}
+
+	#science br {
+		display: block;
+		content: "";
+		height: 5px;
+	}
+
+	#science br:after {
+		content: "\00a0";
+	}
+
+	#science2 br {
+		display: none;
+	}
+
+	.section1-text {
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+
+	.theproofD {
+		min-height: 850px;
+		background-size: 1550px;
+	}
+
+	#whatyouget .c2abtn {
+		font-size: 26px;
+	}
+
+	#howto .c2abtn {
+		font-size: 26px;
+	}
+}
+
+.popup-wrapper .popup .form-popup .button {
+	height: 60px;
+	font-size: 28px;
+	line-height: 60px;
+	letter-spacing: -1px;
+	border-radius: 5px;
+	width: auto;
+
+}
+
+.popup-wrapper #popup-contact-us .form-popup .button {
+	padding: 0 25px;
+}
+
+.fr #whatyouget .c2abtn {
+	font-size: 32px;
+}
+
+.fr .formContent .cards span,
+.de .formContent .cards span,
+.pt .formContent .cards span {
+	line-height: normal;
+}
+
+.es .formContent .form-holder.cvv-code label,
+.it .formContent .form-holder.cvv-code label,
+.pt .formContent .form-holder.cvv-code label {
+	line-height: normal;
+	;
+}
+
+.fr .navbar-brand {
+	font-size: 13px;
+}
+
+@media screen and (max-width: 1200px) {
+
+	.fr #whatyouget .c2abtn {
+		font-size: 25px;
+	}
+
+	.es #whatyouget .c2abtn {
+		font-size: 26px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+
+	.formContent .cards img {
+		height: 22px;
+	}
+
+	.formContent .cards {
+		padding: 0;
+	}
+
+	.fr #whatyouget .c2abtn {
+		font-size: 18px;
+	}
+
+	.de #whatyouget .c2abtn {
+		font-size: 26px;
+	}
+
+	.de #howto .c2abtn {
+		font-size: 25px;
+	}
+
+	.es #whatyouget .c2abtn {
+		font-size: 20px;
+	}
+
+	.it #whatyouget .c2abtn {
+		font-size: 28px;
+	}
+
+	.formContent .form-holder.cvv-code input {
+		width: 140px;
+	}
+}
+
+@media screen and (max-width: 535px) {
+
+	.fr #howto .c2abtn {
+		font-size: 30px;
+	}
+
+	.es #howto .c2abtn {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	.fr #howto .c2abtn {
+		font-size: 24px;
+	}
+
+	.it #howto .c2abtn {
+		font-size: 25px;
+	}
+
+	.pt #howto .c2abtn {
+		font-size: 26px;
+	}
+}
+
+@media screen and (max-width: 410px) {
+
+	.fr #whatyouget .c2abtn {
+		font-size: 16px;
+	}
+
+	.fr #howto .c2abtn {
+		font-size: 16px;
+	}
+
+	.es #whatyouget .c2abtn {
+		font-size: 15px;
+	}
+
+	.es #howto .c2abtn {
+		font-size: 16px;
+	}
+
+	.it #whatyouget .c2abtn {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+
+	.fr #whatyouget .c2abtn {
+		font-size: 13px;
+	}
+
+	.de #whatyouget .c2abtn {
+		font-size: 20px;
+	}
+
+	.de #howto .c2abtn {
+		font-size: 18px;
+	}
+
+	.it #howto .c2abtn {
+		font-size: 22px;
+	}
+
+	.pt #howto .c2abtn {
+		font-size: 22px;
+	}
+}
+
+
+#science h1,
+#science h2 {
+	text-transform: uppercase;
+}
+
+#science h2 {
+	font-size: 26px;
+}
+
+.viraltextm {
+	text-transform: uppercase;
+}
+
+#whatyouget h1.dark {
+	text-transform: uppercase;
+}
+
+#howto h2,
+#howto h3 {
+	text-transform: uppercase;
+}
+
+#theproof h1.mont50 {
+	text-transform: uppercase;
+}
+
+.order-counter {
+	font-size: 14px;
+	padding: 10px 20px;
+	margin: 0 0 20px;
+	position: relative;
+	background: #fff;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 0 24px rgba(55,38,52,0.15);
+	-moz-box-shadow: 0 0 24px rgba(55,38,52,0.15);
+	-o-box-shadow: 0 0 24px rgba(55,38,52,0.15);
+	box-shadow: 0 0 24px rgba(55,38,52,0.15);
+}
+.order-counter article {
+	padding: 10px 0 10px;
+	border-bottom: 1px dashed #ddd;
+}
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+.clearfix:before, .clearfix:after {
+	display: table;
+	line-height: 0;
+	content: '';
+}
+.order-counter article.last {
+	border: none;
+}
+
+
+/*order special*/
+
+.order-special {
+	padding: 0 20px;
+	margin: 0 0 18px;
+	border: 3px dashed #ddd;
+	border-radius: 5px;
+	background: #fff;
+}
+
+.order-special .order-special-header {
+	padding: 16px 0 0 0;
+	margin: 0 0 13px;
+	position: relative;
+	border-bottom: 1px dashed #ddd;
+}
+
+.order-special .order-special-header h2 {
+	font-size: 36px;
+	line-height: 40px;
+	text-align: center;
+	color: #5a1e78;
+	margin-top: 5px;
+}
+
+.order-special .order-special-header h2 span {
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	color: #52585d;
+	line-height: 14px;
+	text-transform: uppercase;
+}
+
+.order-special .order-special-header div {
+	font-size: 42px;
+	font-weight: 700;
+	color: #5a1e78;
+	line-height: 36px;
+	text-align: center;
+}
+
+.order-special .order-special-header div span {
+	font-size: 16px;
+	font-weight: 400;
+	color: #757575;
+	margin: 0 5px;
+}
+
+.order-special .order-special-box {
+	width: 33%;
+	font-weight: 400;
+	text-align: center;
+	padding: 0 20px 14px;
+}
+
+.order-special .order-special-footer {
+	font-size: 12px;
+	color:  #848795;
+	line-height: 16px;
+	text-align: center;
+	padding: 15px 50px 15px;
+	border-top: 1px dashed #ddd;
+}
+
+/*end order special*/
+
+@media screen and (max-width: 480px) {
+
+	/*order special*/
+
+	.order-special .order-special-header div {
+		font-size: 36px;
+	}
+
+	.order-special .order-special-header h2 {
+		font-size: 26px;
+		line-height: 28px;
+		padding-bottom: 10px;
+	}
+
+	.order-special .order-special-header h2 span {
+		padding: 5px 0 0 0;
+	}
+
+	.order-special .order-special-box {
+		width: 100%;
+		float: none;
+		padding: 0 10px 8px;
+	}
+
+	.order-special .order-special-footer {
+		padding: 15px 10px 15px;
+		margin: 6px 0 0 0;
+	}
+
+	/*end order special*/
+ }
+
+
+
+
+@media screen and (max-width: 480px)
+{
+	h1
+	{
+		font-size: 25px !important;
+	}
+	h3
+	{
+		font-size: 22px !important;
+	}
+	h2
+	{
+		font-size: 18px !important;
+	}
+}
+
+
+
+@media (min-width: 480px) and (max-width: 767px)
+{
+	h1
+	{
+		font-size: 35px !important;
+	}
+	h3
+	{
+		font-size: 30px !important;
+	}
+	h2
+	{
+		font-size: 33px !important;
+	}
+}

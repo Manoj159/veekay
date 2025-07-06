@@ -1,0 +1,28 @@
+.formBody button {
+	width: 100%;
+	height: 90px;
+	background: url("../images/rush-my-order.png") no-repeat center;
+
+	border-radius: 0;
+
+}
+
+.formBody button:hover {
+	background: url("../images/rush-my-order.png") no-repeat center;
+}
+
+.popup-loading-wrapper .popup .product-image {
+	width: 110px;
+	height: 176px;
+	margin: 0 auto 6px;
+	position: relative;
+	background: url("../images/keto-logo-lg.html") no-repeat left top;
+}
+
+.logo {
+	width: 130px;
+	height: 50px;
+	margin: 20px 0 0;
+	background: url("../images/keto-logo-lg.html") no-repeat;
+	background-size: 100% auto;
+}

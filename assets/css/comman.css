@@ -1,0 +1,287 @@
+.main{
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background-color: #FFF;
+        box-shadow: 0px 3px 10px 0px #00000029;
+        z-index: 5;
+        border-radius: 0px 0px 20px 20px;
+    }
+.navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 30px;
+      width: 90%;
+      margin: 0px auto;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo img {
+      height: 40px;
+    }
+
+    .logo span {
+      font-weight: bold;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        font-family: Ubuntu;
+        font-weight: 500;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #4E4E4E;
+        position: relative;
+    }
+
+    .nav-links a.active {
+      color: #ff5a00;
+    }
+
+    .nav-links a.active::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      height: 3px;
+      width: 100%;
+      background-color: #ff5a00;
+      border-radius: 3px;
+    }
+
+    .contact-button {
+      border: 2px solid #ff5a00;
+      color: #ff5a00;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      background-color: #FFF5F1;
+      font-family: "ubuntu",sans-serif;
+    }
+
+    .login-button {
+        font-size: "ubuntu",sans-serif;
+      background-color: #02b9e1;
+      color: #fff;
+      padding: 9px 20px;
+      border-radius: 20px;
+      margin-left: 10px;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+/* ============== feature ==================== */
+.features-A{
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 0px 0px 30px 30px;
+    position: relative;
+    height: 40vh;
+    z-index: 4;
+}
+.features h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.feature-back{
+    position: absolute;
+    bottom: 30px;
+    width: 96%;
+}
+/* ============= footer ============= */
+.footer {
+  background-color: #0d0f2b;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 80px 20px 20px;
+  margin-top: -20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 92%;
+  margin: auto;
+}
+
+.footer-logo {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-logo span {
+  color: #00cfff;
+}
+
+.footer p {
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.footer-column h3 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-column a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.social-icons{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+  font-size: 18px;
+  transition: 0.3s;
+  background-color: #373C4D;
+  padding: 7px 13px;
+  border-radius: 40px;
+}
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 13px;
+  color: #aaa;
+}
+/* ===== */
+.footer {
+  background-color: #0d0f2b;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 92%;
+  margin: auto;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 375px;
+}
+
+.footer-logo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-logo span {
+  color: #00cfff;
+}
+
+.footer-left p {
+  font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.footer-center {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  min-width: 400px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column h3 , .footer-right h3{
+    font-family: "Ubuntu",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.footer-column a {
+    font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.footer-column a :hover{
+    color: #FFF;
+}
+
+.footer-right {
+  flex: 1;
+  min-width: 280px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 10px 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  color: #aaa;
+  margin-top: 40px;
+}
+
+
+
+.seo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.seo-toggle-icon {
+  width: 16px;
+  transition: transform 0.3s ease;
+}
+
+.seo-header.open .seo-toggle-icon {
+  transform: rotate(180deg);
+}
